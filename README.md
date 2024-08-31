@@ -64,3 +64,10 @@ Hemos implementado una Simple Factory en la clase ShapeFactory. Este patrón es 
 ### Ejecucion Casos Ejemplo
 
 ![Ejecucion Casos](/Capturas/Captura9.png)
+Esta instruccion ejecuta, pero no lanza un resultado ya que nos dice que necesita un parametro `<shape-name>`
+![Ejecucion Casos](/Capturas/Captura10.png)
+Aca la instruccion no ejecuta, debido a que no conoce la figura con el nombre `qwerty`
+![Ejecucion Casos](/Capturas/Captura11.png)
+En esta instruccion apesar de que el parametro dado es `pentagon` sin la primera letra en Mayuscula, este no es sensible y aun asi interpreta la figura como Pentagon
+![Ejecucion Casos](/Capturas/Captura12.png)
+Y finalmente la ultima instruccion ejecuta sin problema alguno.
