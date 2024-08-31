@@ -12,7 +12,7 @@
 
 **Repositorio Central de Maven:** Es un repositorio en línea donde se almacenan artefactos (como librerías y plugins) que los proyectos pueden usar sin necesidad de almacenarlos localmente.
 
-## EJERCICIO DE LAS FIGURAS
+## EJERCICIO SALUDO
 
 ### Creacion del Proyecto Maven
 
@@ -29,13 +29,29 @@ El parámetro `package` en Maven se utiliza para compilar el código fuente de u
 
 Además de package, existen otros comandos clave que se pueden utilizar con Maven:
 
-`clean`: Elimina los archivos generados en compilaciones anteriores, limpiando el directorio target.
-validate: Verifica que toda la información necesaria para el proyecto esté disponible y correcta.
-compile: Compila el código fuente del proyecto.
-test: Ejecuta las pruebas unitarias utilizando un framework adecuado.
-install: Instala el paquete en el repositorio local de Maven, lo que permite que otros proyectos dependientes lo utilicen.
-deploy: Copia el paquete final a un repositorio remoto para compartirlo con otros desarrolladores o proyectos.
-verify: Ejecuta verificaciones adicionales para garantizar que el paquete es válido y cumple con los criterios de calidad.
+1. `clean`: Elimina los archivos generados en compilaciones anteriores, limpiando el directorio target.
+2. `validate`: Verifica que toda la información necesaria para el proyecto esté disponible y correcta.
+3. `compile`: Compila el código fuente del proyecto.
+4. `test`: Ejecuta las pruebas unitarias utilizando un framework adecuado.
+5. `install`: Instala el paquete en el repositorio local de Maven, lo que permite que otros proyectos dependientes lo utilicen.
+6. `deploy`: Copia el paquete final a un repositorio remoto para compartirlo con otros desarrolladores o proyectos.
+7. `verify`: Ejecuta verificaciones adicionales para garantizar que el paquete es válido y cumple con los criterios de calidad.
+
+![Ejecucion Saludo](/Capturas/Captura4.png)
+
+En la tercera linea al ejecutar la clase con su nombre y apellido como parámetro, esta solo nos imprimira el nombre de nuevo, esto es debido a que la clase main solo pide un parametro, siendo en este caso el primer parametro que se envia ignorando los demas.
+
+Para realizar el saludo con nombre y apellido, simplemente es agregando un parametro mas para el apellido en la clase Main o mandar el parametro de forma compuesta en un arreglo.
+
+![Ejecucion Apellido](/Capturas/Captura5.png)
+
+## EJERCICIO DE LAS FIGURAS
+
+### Hacer el Esqueleto de la Aplicacion
+
+![Esqueleto](/Capturas/Captura6.png)
+![Esqueleto](/Capturas/Captura7.png)
+![Esqueleto](/Capturas/Captura8.png)
 
 Hemos implementado una Simple Factory en la clase ShapeFactory. Este patrón es perfecto cuando necesitamos crear instancias de clases concretas sin exponer la lógica de creación al cliente, especialmente si no se necesita mucha flexibilidad para crear objetos.
 
@@ -44,3 +60,4 @@ Hemos implementado una Simple Factory en la clase ShapeFactory. Este patrón es 
 - **Simple Factory** es ideal para situaciones sencillas donde la creación de objetos es directa y no se requiere mucha flexibilidad.
 - **Factory Method** es útil cuando estamos trabajando con una jerarquía de clases y las subclases necesitan decidir cómo crear las instancias.
 - **Abstract Factory** es más adecuada cuando necesitamos crear familias de productos relacionados que deben ser utilizados juntos.
+
