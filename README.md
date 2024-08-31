@@ -61,3 +61,6 @@ Hemos implementado una Simple Factory en la clase ShapeFactory. Este patrón es 
 - **Factory Method** es útil cuando estamos trabajando con una jerarquía de clases y las subclases necesitan decidir cómo crear las instancias.
 - **Abstract Factory** es más adecuada cuando necesitamos crear familias de productos relacionados que deben ser utilizados juntos.
 
+### Ejecucion Casos Ejemplo
+
+![Ejecucion Casos](/Capturas/Captura9.png)
