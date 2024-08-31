@@ -1,5 +1,7 @@
 # LABORATORIO 2 - PATTERNS
 
+## LA HERRAMIENTA MAVEN
+
 **Maven** es una herramienta de gestión y construcción de proyectos basada en Java. Su mayor utilidad es simplificar y estandarizar el proceso de construcción, ofreciendo un sistema uniforme y generando información de calidad sobre los proyectos.
 
 **Fases de Maven:** Incluyen validación, compilación, pruebas, empaquetado, verificación, instalación y despliegue.
@@ -9,6 +11,20 @@
 **Plugins:** Extienden las capacidades de Maven al añadir funcionalidades como la compilación de código o el manejo de dependencias.
 
 **Repositorio Central de Maven:** Es un repositorio en línea donde se almacenan artefactos (como librerías y plugins) que los proyectos pueden usar sin necesidad de almacenarlos localmente.
+
+## EJERCICIO DE LAS FIGURAS
+
+### Creacion del Proyecto Maven
+
+![Creacion](/Capturas/Captura1.png)
+![Estructura](/Capturas/Captura2.png)
+
+### Configuraciones del Proyecto
+
+![Configuracion](/Capturas/Captura3.png)
+
+### Compilar y Ejecutar
+
 
 Hemos implementado una Simple Factory en la clase ShapeFactory. Este patrón es perfecto cuando necesitamos crear instancias de clases concretas sin exponer la lógica de creación al cliente, especialmente si no se necesita mucha flexibilidad para crear objetos.
 
