@@ -25,6 +25,17 @@
 
 ### Compilar y Ejecutar
 
+El parámetro `package` en Maven se utiliza para compilar el código fuente de un proyecto y empaquetarlo en su formato de distribución, como un archivo JAR o WAR, que luego puede ser desplegado o utilizado en otras aplicaciones. 
+
+Además de package, existen otros comandos clave que se pueden utilizar con Maven:
+
+`clean`: Elimina los archivos generados en compilaciones anteriores, limpiando el directorio target.
+validate: Verifica que toda la información necesaria para el proyecto esté disponible y correcta.
+compile: Compila el código fuente del proyecto.
+test: Ejecuta las pruebas unitarias utilizando un framework adecuado.
+install: Instala el paquete en el repositorio local de Maven, lo que permite que otros proyectos dependientes lo utilicen.
+deploy: Copia el paquete final a un repositorio remoto para compartirlo con otros desarrolladores o proyectos.
+verify: Ejecuta verificaciones adicionales para garantizar que el paquete es válido y cumple con los criterios de calidad.
 
 Hemos implementado una Simple Factory en la clase ShapeFactory. Este patrón es perfecto cuando necesitamos crear instancias de clases concretas sin exponer la lógica de creación al cliente, especialmente si no se necesita mucha flexibilidad para crear objetos.
 
